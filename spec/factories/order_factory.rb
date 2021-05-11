@@ -6,9 +6,4 @@ FactoryBot.define do
       Faker::Commerce.price
     end
   end
-
-  factory :order do
-    user
-    status 0
-  end
 end
