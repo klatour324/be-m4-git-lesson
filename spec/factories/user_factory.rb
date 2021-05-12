@@ -8,14 +8,6 @@ FactoryBot.define do
       Faker::Name.last_name
     end
 
-    sequence :email do
-      Faker::Internet.email
-    end
-
-    sequence :address do
-      Faker::HarryPotter.location
-    end
-
     sequence :password do
       Faker::Internet.password
     end
@@ -23,7 +15,3 @@ FactoryBot.define do
     role 0
   end
 end
-
-
-
-
